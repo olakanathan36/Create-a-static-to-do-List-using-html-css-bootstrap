@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+.col{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+form{
+    display: flex;
+}
+.container{
+    width: 800px;
+    border: 3px solid rgb(182, 171, 182);
+    background-color: rgb(233, 231, 228);
+
+}
+#addTaskButton{
+    background-color: rgb(56, 207, 56);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(28, 66, 99);
+    box-shadow: 2uh;
+}
+h1{
+    color: skyblue;
+}
+#taskInput{
+    height: 35px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.task button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.task button:hover {
+    background-color: #c82333;
+}
